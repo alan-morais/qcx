@@ -1,0 +1,187 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #header {
+    width: 90%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0 10px 0;
+    margin: auto;
+    margin-bottom: 150px;
+    color: #f2f2f2;
+  }
+  
+  #header-name {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  #header span:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
+  #header a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #header-itens {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+  }
+  
+  #section-container {
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  
+    url("https://purplecomputing.com/wp-content/uploads/2019/10/Mac-internet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f2f2f2;
+    margin-bottom: 200px;
+  }
+  
+  #main-content p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  #main-content span {
+    font-size: 1.3rem;
+  }
+  
+  #container-icons {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  
+  #container-icons img {
+    width: 50px;
+  }
+  
+  #aboutSection  {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  #aboutSection  span {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+  }
+
+  #aboutSection paragraph {
+      display: flex;
+      flex-direction: column;
+      font-size: 1rem;
+      margin-left: 15%;
+      width: 75%;
+  }
+  
+  #aboutSection  p {
+    color: #000;
+    text-align: left;
+    line-height: 2;
+  }
+    
+  footer {
+    width: 100%;
+    height: 100px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  footer h4 {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    #header-itens {
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    #section-container {
+      height: 400px;
+    }
+  
+    #header {
+      margin-bottom: 60px;
+    }
+  
+    #header-name {
+      font-size: 1rem;
+    }
+  
+    #header a {
+      font-size: 0.8rem;
+    }
+  
+    #main-content {
+      margin-bottom: 100px;
+    }
+  
+    #main-content p {
+      font-size: 1.5rem;
+    }
+  
+    #main-content span {
+      font-size: 1rem;
+    }
+  
+    #container-icons img {
+      width: 35px;
+    }
+  
+    #aboutSection  {
+      margin-top: 20px;
+    }
+  
+    #aboutSection  span {
+      font-size: 1rem;
+    }
+  
+    #aboutSection  p {
+      line-height: 1.5;
+      font-size: 0.8rem;
+    }  
+    footer h4 {
+      font-size: 0.8rem;
+    }
+  }
